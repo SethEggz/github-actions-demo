@@ -9,6 +9,7 @@ describe('Calculator', () => {
     const itemElement = document.querySelector('h2');
 
     if (itemElement) {
+      
       expect(itemElement.textContent).toBe('Simple Calculator');  
     }
     
